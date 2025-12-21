@@ -141,5 +141,6 @@
     <!-- <li IfModActive="erin.decorations">1.6/Mods and Shit/Erin Decorations</li>
     <li IfModActive="erin.cottagecollection">1.6/Mods and Shit/Erin Cottage Collection</li> -->
     <li IfModActive="nightmare.museums">1.6/Mods and Shit/Museums</li>
+    <li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
   </v1.6>
 </loadFolders>
