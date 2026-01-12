@@ -928,7 +928,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-    <Operation Class="PatchOperationConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]/designationCategory</xpath>
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]/designationCategory</xpath>
@@ -1603,7 +1603,7 @@
 
 
 
-<!-- VFE ARCHITECT -->
+	<!-- VFE ARCHITECT -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Furniture Expanded - Architect</li>
@@ -1628,8 +1628,13 @@
 		</match>
 	</Operation>
 
-
-
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="DankPyon_BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<order>Append</order>
+		<value>
+			<li>DankPyon_RusticTallEndTable</li>
+		</value>
+	</Operation>
 
 
 </Patch>
